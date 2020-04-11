@@ -1,0 +1,152 @@
+main {
+  background-image: url(images/galaxy.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 100px;
+}
+
+.wrapper-about, .wrapper-book, .wrapper-table {
+  padding: 5vw;
+  background-color: #000000c2;
+}
+
+section.fullbanner {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+section.fullbanner .banner {
+  width: 60%;
+  position: absolute;
+  left: 5vw;
+  box-shadow: 10px 10px #faec3b;
+  border: 7px solid #6ec2df;
+}
+
+section.fullbanner img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  object-fit: cover;
+}
+
+section.fullbanner figcaption {
+  width: 40%;
+  position: absolute;
+  right: 5vw;
+  padding: 3vw 2vw;
+  background-color: #000000c2;
+  text-align: center;
+  border: 1px solid #faec3b;
+}
+
+section.fullbanner figcaption h2 {
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+section.about {
+  text-align: center;
+}
+
+section.about .book-title {
+  margin-bottom: 50px;
+}
+
+section.book .wrapper-book {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#book2 .wrapper-book,
+#book4 .wrapper-book {
+  flex-direction: row-reverse;
+}
+
+section.book .wrapper-book .book-image {
+  width: 20%;
+  box-shadow: 10px 10px #faec3b;
+  border: 7px solid #6ec2df;
+}
+
+section.book .wrapper-book .book-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+section.book .wrapper-book .book-infos {
+  width: calc(80% - 50px);
+}
+
+section.book .wrapper-book .book-infos .title {
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+}
+
+section.book .wrapper-book .book-infos .title span.vol-number {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 0 10px;
+  background-color: #faec3b;
+  color: cadetblue;
+}
+
+section.comparation {
+  margin-top: 100px;
+}
+
+section.comparation table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 10px 10px #faec3b;
+  border: 7px solid #6ec2df;
+}
+
+section.comparation table th {
+  font-weight: 600;
+}
+
+section.comparation table th, td  {
+  border: 1px solid #6ec2df;
+  padding: 10px 0;
+  text-align: center;
+}
+
+section.comparation table .art {
+  width: 5vw;
+  margin: auto;
+  padding: 20px 0;
+}
+
+section.comparation table .art img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border: groove;
+}
+
+section.comparation table tr {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+section.comparation table tr:hover {
+  background-color: #484a9d69;
+}

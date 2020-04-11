@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Baloo Paaji 2', cursive;
+  color: white;
+  position: relative;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #000000c2;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+header ul > li {
+  margin: 0 10px;
+  text-transform: uppercase;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #000000c2;
+  position: absolute;
+  bottom: 0;
+  z-index: 100;
+}
+
+section {
+  width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+  margin-bottom: 100px;
+}
+
+.container {
+  width: calc(100% - 25vw);
+  height: auto;
+  margin: auto;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1.title {
+  font-size: 3em;
+  line-height: 1em;
+  text-shadow: 4px 4px #056766;
+}
+
+h3 {
+  font-size: 1.5em;
+}
